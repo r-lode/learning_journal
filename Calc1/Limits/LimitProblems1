@@ -1,0 +1,27 @@
+\section{Limit by Factoring}
+
+Evaluate:
+\[
+\lim_{x \to 2} \frac{x^2 - 4}{x - 2}.
+\]
+
+Factor the numerator:
+\[
+x^2 - 4 = (x - 2)(x + 2).
+\]
+
+For \(x \neq 2\), cancel the common factor \(x - 2\):
+\[
+\frac{(x - 2)(x + 2)}{x - 2} = x + 2.
+\]
+
+Therefore,
+\[
+\lim_{x \to 2} \frac{x^2 - 4}{x - 2}
+= \lim_{x \to 2}(x + 2)
+= \boxed{4}.
+\]
+
+The original expression is undefined at \(x = 2\), but the
+limit exists because it depends on values approaching \(2\),
+rather than the value at \(2\) itself.
